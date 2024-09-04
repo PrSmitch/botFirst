@@ -15,6 +15,7 @@ const (
 	batchSize   = 100
 )
 
+// Вот так
 func main() {
 
 	eventsProcessor := telegram2.New(telegram.New(tgBotHost, mustToken()), Files.NewStorage(storageBath))
